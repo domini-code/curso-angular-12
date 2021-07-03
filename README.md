@@ -1,15 +1,17 @@
+![Alt text](https://i.ytimg.com/vi/i-oYrcNtc2s/hqdefault.jpg "dominicode")
+
 # Curso de Angular 12
 
 En este curso de Angular 12 aprenderás a trabajar con Angular.
 Empezamos desde cero explicando ¿Qué es Angular? hasta realizar una aplicación básica de Angular.
-Este proyecto fue creado con [Angular CLI]("https://github.com/angular/angular-cli") en la versión 12.0.1.
+Este proyecto fue creado con [Angular CLI](https://github.com/angular/angular-cli) en la versión 12.0.1.
 
 ## 🔖 Temario del curso:
 
 - 0:00:00 Intro
 - 0:00:20 Angular 12 : ¿Qué es Angular?
 - 0:01:10 Angular 12 : ¿Qué es Angular CLI?
-- 0:01:45 Angular 12 : Como instalar Angular CLI & prerequisitos
+- 0:01:45 Angular 12 : Como instalar Angular CLI & prerrequisitos
 - 0:03:53 Angular 12 : Instalando el Angular CLI
 - 0:05:48 Angular 12 : Creando tu primera aplicación de Angular
 - 0:07:25 Angular 12 : Estructura de carpetas y ficheros de Angular
@@ -26,7 +28,7 @@ Este proyecto fue creado con [Angular CLI]("https://github.com/angular/angular-c
 - 0:40:50 Angular 12 : Componente Inline Angular
 - 0:42:42 Angular 12 : Rutas en Angular, <router-outlet></router-outlet>
 - 0:45:00 Angular 12 : Creamos un componente manual para nuestra ruta
-- 0:50:30 Angular 12 : Nuesta primera ruta en Angular
+- 0:50:30 Angular 12 : Nuestra primera ruta en Angular
 - 0:54:10 Angular 12 : Creamos el modulo de Products
 - 0:58:35 Angular 12 : Reto
 - 0:59:53 Angular 12 : Solución al Reto crear nuevo componente Product
@@ -89,7 +91,7 @@ Este proyecto fue creado con [Angular CLI]("https://github.com/angular/angular-c
 
 ### Empezar el Curso en Youtube
 
-- [Quiero aprender Angular](https://www.youtube.com/dominicode)
+- [Quiero aprender Angular 12](https://youtu.be/i-oYrcNtc2s)
 
 ### Prerrequisitos
 
@@ -123,4 +125,5 @@ Una vez clonado este repositorio, debe instalar las dependencias.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Ejecuta `ng build` para generar el proyecto.
+Los ficheros generados estarán en la carpeta `dist/`.
