@@ -1,8 +1,8 @@
-<div class="container__table">
+<div class="container">
   <table class="table">
     <thead>
       <tr>
-        <th>Item</th>
+        <th width="60%">Item</th>
         <th>Qty</th>
         <th>Price unit</th>
         <th>Sub total</th>
@@ -17,12 +17,5 @@
       </tr>
     </tbody>
   </table>
-
-  <div class="container__total">
-    <p class="total">
-      <strong
-        >Total: <span>{{ total$ | async | currency }}</span></strong
-      >
-    </p>
-  </div>
+  <p class="total">Total: {{ total$ | async | currency }}</p>
 </div>

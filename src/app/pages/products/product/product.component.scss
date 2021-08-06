@@ -1,9 +1,23 @@
 .card {
-  margin:5px;
-  min-height: 180px;
-  min-width: 400px;
-  max-width: 400px;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  max-width: 25rem;
+  min-height: 10rem;
+  min-width: 25rem;
+}
+
+.mat-card-title {
+  line-height: 1.2;
+}
+
+.mat-card-actions {
+  margin: 0;
+}
+
+.mat-card > .mat-card-actions:last-child {
+  margin-bottom: 0;
+  margin-top: auto;
 }
 
 button {
