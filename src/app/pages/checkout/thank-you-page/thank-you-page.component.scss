@@ -1,17 +1,14 @@
-.container{
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  margin: 0 10%;
-  height: 80%;
-  flex-direction: column;
-  margin-top: 2rem;
-  .title {
-    font-size: 5rem;
-  }
+.container {
+  margin: 6rem auto 0;
+  width: 90%;
+}
 
-  .content{
-    font-size: 1.5rem;
-    padding: 1rem;
-  }
+.title {
+  font-size: 5rem;
+  line-height: 1.2;
+}
+
+.content {
+  font-size: 1.5rem;
+  line-height: 1.2;
 }

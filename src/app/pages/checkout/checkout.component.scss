@@ -1,30 +1,28 @@
-.container{
-  display: flex;
-  align-items: center;
-  padding: 1rem 5rem;
+.container {
+  margin: 6rem auto 0;
+  width: 90%;
+}
 
-  .item {
-    flex: 1 1 auto;
-  }
-  .form {
-    width: 100%;
-  }
-  .form__element{
-    padding: 5px 0px 25px 2px;
-    width: 100%;
+.form {
+  &__element {
     margin-bottom: .5rem;
+    width: 100%;
+  }
+
+  .mat-radio-group {
+    display: block;
+  }
+
+  .mat-radio-button {
+    margin-right: 1rem;
   }
 }
 
-
-.container__button{
-  margin: 0 auto;
-  display: block;
+.actions {
+  margin: 4rem auto 0;
   width: 40%;
-  margin-top: 4rem;
 
-  button {
+  &__btn {
     width: 100%;
   }
 }
-
