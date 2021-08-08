@@ -1,7 +1,7 @@
 export interface Store {
-  id: number;
-  name: string;
   address: string;
   city: string;
+  id: number;
+  name: string;
   openingHours: string;
 }

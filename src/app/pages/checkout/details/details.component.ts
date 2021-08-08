@@ -1,18 +1,17 @@
-import { ShoppingCartService } from 'src/app/shared/services/shopping-cart.service';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+
+import {
+  ShoppingCartService
+} from 'src/app/shared/services/shopping-cart.service';
 
 @Component({
   selector: 'app-details',
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.scss']
 })
-export class DetailsComponent implements OnInit {
-  total$ = this.shoppingCartSvc.totalAction$;
-  cart$ = this.shoppingCartSvc.cartAction$;
+export class DetailsComponent {
+  cart$ = this.shoppingCartService.cartAction$;
+  total$ = this.shoppingCartService.totalAction$;
 
-  constructor(private shoppingCartSvc: ShoppingCartService) { }
-
-  ngOnInit(): void {
-  }
-
+  constructor(private shoppingCartService: ShoppingCartService) { }
 }

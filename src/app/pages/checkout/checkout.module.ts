@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { CheckoutRoutingModule } from './checkout-routing.module';
-import { CheckoutComponent } from './checkout.component';
-import { FormsModule } from '@angular/forms';
 import { MaterialModule } from 'src/app/material.module';
-import { DetailsComponent } from './details/details.component';
 
+import { CheckoutComponent } from './checkout.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
@@ -14,8 +14,8 @@ import { DetailsComponent } from './details/details.component';
     DetailsComponent
   ],
   imports: [
-    CommonModule,
     CheckoutRoutingModule,
+    CommonModule,
     FormsModule,
     MaterialModule
   ]

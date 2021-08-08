@@ -1,4 +1,11 @@
-import { Component, Input, Output, EventEmitter, ChangeDetectionStrategy } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  EventEmitter,
+  Input,
+  Output,
+} from '@angular/core';
+
 import { Product } from '../interfaces/product.interface';
 
 @Component({
@@ -11,9 +18,7 @@ export class ProductComponent {
   @Input() product!: Product;
   @Output() addToCartClick = new EventEmitter<Product>();
 
-
   onClick(): void {
     this.addToCartClick.emit(this.product);
   }
-
 }

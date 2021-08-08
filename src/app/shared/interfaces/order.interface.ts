@@ -5,12 +5,12 @@ export interface Details {
 }
 
 export interface Order {
-  name: string;
-  shippingAddress: string;
   city: string;
   date: string;
-  isDelivery: boolean;
   id: number;
+  isDelivery: boolean;
+  name: string;
+  shippingAddress: string;
 }
 
 export interface DetailsOrder {
